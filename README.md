@@ -6,4 +6,5 @@ Contents:
 <li>image fill color on hover</li>
 <li>responsive service section cards with css grid</li>
 <li>responsive touch slider using html css and jquery in addition to swiper.js</li>
+<li>Background pulse animation with css</li>
 </ol>
