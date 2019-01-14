@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Responsive Meny</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="toggle"><i class='fa fa-bars menu'></i></div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu').click(function() {
+                $('ul').toggleClass('active');
+            })
+        })
+    </script>
+</body>
+</html>
