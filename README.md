@@ -8,4 +8,5 @@ Contents:
 <li>responsive touch slider using html css and jquery in addition to swiper.js</li>
 <li>Background pulse animation with css</li>
 <li>responsive navigation bar</li>
+<li>Basic Parallex Website</li>
 </ol>
